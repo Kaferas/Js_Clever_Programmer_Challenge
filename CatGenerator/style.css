@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  flex-direction: column;
+}
+h1 {
+  font-size: 4vw;
+}
+.head,
+.middle,
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  padding: 30px;
+  border: 1px solid grey;
+}
+.btn {
+  border: none;
+  background-color: green;
+  color: white;
+  padding: 15px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
